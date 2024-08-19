@@ -35,7 +35,7 @@ export const QrCode = () => {
      document.body.removeChild(link);  
     })
     .catch((error)=> { 
-      console.error("Error downloading QR code",error);
+      console.error("Error in downloading QR code",error);
     });
   }
 
